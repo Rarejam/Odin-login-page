@@ -1,0 +1,235 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.side-image {
+  background-image: url(flowers.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 405px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+.side-login {
+  border: none;
+  height: 699.5px;
+  width: 540px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+.first-slide {
+  height: 250px;
+  margin-left: 0px;
+  margin: 0px;
+  padding-top: 20px;
+  width: 665px;
+  background-color: #edeef1;
+  display: flex;
+  align-items: flex-end;
+}
+.first-text {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.second-slide {
+  height: 270px;
+  margin-left: 0px;
+  margin: 0px;
+  padding-top: 20px;
+  width: 665px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 0px solid black;
+
+  margin-bottom: 4px;
+}
+.third-slide {
+  height: 220px;
+  margin-left: 0px;
+  margin: 0px;
+  padding-top: 20px;
+  width: 665px;
+  background-color: #edeef1;
+  box-shadow: -2px 2px 6px inset grey;
+}
+.btn-submit {
+  background-color: #596d48;
+  width: 10rem;
+  height: 2.3rem;
+  border-radius: 8px;
+  border: none;
+  margin-left: 40px;
+  color: white;
+}
+.btn-submit:hover {
+  background-color: #88ab6c;
+}
+.btn-submit:active {
+  padding: 15px;
+  background-color: #596d48;
+}
+.first-div {
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+.fname {
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+  font-size: 12px;
+}
+.lname {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+}
+.email {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+}
+.telephone {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+}
+
+.second-div {
+  gap: 30px;
+  display: flex;
+  margin-left: 40px;
+  flex-direction: row;
+  align-items: center;
+}
+.password {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+}
+.confirm-password {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+}
+
+.third-div {
+  display: flex;
+  gap: 30px;
+  line-height: 4px;
+  margin-left: 40px;
+  flex-direction: row;
+}
+.header {
+  margin-left: 40px;
+  margin-bottom: 4px;
+}
+.footer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #596d48;
+}
+a:hover {
+  color: #8c9e7c;
+}
+a:active {
+  color: #596d48;
+}
+input {
+  border-radius: 3px;
+  border: 0.1px solid #e5e7eb;
+}
+#fname:valid {
+  border-color: blue;
+}
+#lname:valid {
+  border-color: blue;
+}
+#email:valid {
+  border-color: blue;
+}
+#telephone:valid {
+  border-color: blue;
+}
+#fname:invalid {
+  border-color: #e5e7eb;
+}
+#lname:invalid {
+  border-color: #e5e7eb;
+}
+#email:invalid {
+  border-color: #e5e7eb;
+}
+#telephone:invalid {
+  border-color: #e5e7eb;
+}
+#password:valid {
+  border-color: rgb(125, 244, 125);
+}
+#password:invalid {
+  border-color: red;
+}
+#confirm-password:valid {
+  border-color: rgb(125, 244, 125);
+}
+#confirm-password:invalid {
+  border-color: red;
+}
+#copy-right {
+  position: relative;
+  left: 300px;
+  top: 120px;
+}
+.odin {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  background-color: black;
+  width: 405px;
+  height: 110px;
+  opacity: 0.35;
+}
+.odin-img {
+  width: 70px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 120px;
+}
+.odin-text {
+  color: white;
+  font-size: 100px;
+  left: 190px;
+  position: absolute;
+  font-family: Norse;
+}
+/* change the color of the input element from grey to the odin color or something */
